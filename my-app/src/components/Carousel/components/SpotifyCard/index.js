@@ -22,7 +22,7 @@ function SpotifyCard({ songTitle, songURL, categoryColor }) {
     >
       <iframe src={getSpotifyEmbed(songURL)}
         width="300" height="380"
-        frameborder="0" allowtransparency="true"
+        allowtransparency="true"
         allow="encrypted-media" title={songTitle}
       >
       </iframe>
