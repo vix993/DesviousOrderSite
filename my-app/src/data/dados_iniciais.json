@@ -1,46 +1,77 @@
 {
   "categorias": [
     {
-      "titulo": "Spotify Placeholder",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Performances",
+      "link": "https://www.youtube.com/channel/UCuJJEQYApdlYAMWcO1zROUQ/",
+      "cor": "#6a6ac0",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Stripped down performances",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "Acoustic version of Water Walking, off of 'Afraid At 27'",
-          "url": "https://www.youtube.com/embed/j7DEUondW1o"
+          "titulo": "Water Walking (Acoustic)",
+          "url": "https://www.youtube.com/watch?v=j7DEUondW1o"
+        },
+        {
+          "titulo": "Slow Burn (Acoustic)",
+          "url": "https://www.youtube.com/watch?v=uqLBoKNzz_o"
         },
         {
           "titulo": "Acoustic cover of Lost - Frank Ocean",
           "url": "https://www.youtube.com/watch?v=Aa-CGUchAug"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Acoustic cover of Living On The Sand - Colter Wall",
+          "url": "https://www.youtube.com/watch?v=saIEgbcSxEc"
+        }
+      ]
+    },
+    {
+      "titulo": "Spotify",
+      "link": "Band Link",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Influences",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "songs": [
+        {
+          "titulo": "PDLIF - Bon Iver",
+          "url": "https://open.spotify.com/track/6Md0VfGaWXZgJc53IMqPkO"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Living On The Sand - Colter Wall",
+          "url": "https://open.spotify.com/track/1WSEWiuB7KeEchBhvRb7qX"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Lost - Frank Ocean",
+          "url": "https://open.spotify.com/track/4L7jMAP8UcIe309yQmkdcO"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Goodbye Carolina - The Marcus King Band",
+          "url": "https://open.spotify.com/track/3dWZJWo0kVHb5ID7x3PgtR"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Island In The Sun - Weezer",
+          "url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw?si=yjATjbXISS-dCmq4fieJyw"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Vida - Cabruera",
+          "url": "https://open.spotify.com/track/5mSzoU5KeYcOTO9Lp3wIK0?si=fabdwqW8T3S8rs5dhNqgCQ"
+        },
+        {
+          "titulo": "Melanine - Tycho",
+          "url": "https://open.spotify.com/track/18rXOovmohAMcFwUPAUAN2"
+        },
+        {
+          "titulo": "Fond Farewell - Elliot Smith",
+          "url": "https://open.spotify.com/track/4R5su0RMFPUeReN0xkWalx"
+        },
+        {
+          "titulo": "Lazarus - David Bowie",
+          "url": "https://open.spotify.com/track/3Vn9oCZbdI1EMO7jxdz2Rc"
+        }
       ]
     },
     {

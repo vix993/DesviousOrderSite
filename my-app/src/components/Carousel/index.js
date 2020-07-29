@@ -1,16 +1,18 @@
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
+import SpotifyCard from './components/SpotifyCard';
 import Slider, { SliderItem } from './components/Slider';
 
 function Carousel({
   ignoreFirstVideo,
+  isSpotifyPlaybutton,
   category,
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+  const elements = category.songs ? category.songs : category.videos;
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -26,16 +28,27 @@ function Carousel({
         </>
       )}
       <Slider>
-        {videos.map((video, index) => {
+        {elements.map((element, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
+          else if (isSpotifyPlaybutton){
+            return (
+              <SliderItem key={element.titulo}>
+              <SpotifyCard
+                songTitle="hello"
+                songURL={element.url}
+                categoryColor="purple"
+              />
+              </SliderItem>
+            )
+          }
 
           return (
-            <SliderItem key={video.titulo}>
+            <SliderItem key={element.titulo}>
               <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
+                videoTitle={element.titulo}
+                videoURL={element.url}
                 categoryColor={categoryColor}
               />
             </SliderItem>
