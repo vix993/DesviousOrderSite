@@ -9,10 +9,17 @@ function Menu()
     return (
         <nav className="Menu">
             <Link to="/">
-                <img className="Logo" src={Logo} alt='Aluraflixlogo'></img>
+                <img
+                className="Logo"
+                src={Logo}
+                alt='Aluraflixlogo'></img>
             </Link>
-            <Button as={Link}  className="ButtonLink" to="/register/video">
-                New Video
+            <Button
+                as={Link}
+                className="ButtonLink"
+                to="/register/video"
+            >
+            New Video
             </Button>
         </nav>
     );
