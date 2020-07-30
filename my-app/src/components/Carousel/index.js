@@ -38,7 +38,7 @@ function Carousel({
               <SpotifyCard
                 songTitle="hello"
                 songURL={element.url}
-                categoryColor="purple"
+                categoryColor={categoryColor}
               />
               </SliderItem>
             )
