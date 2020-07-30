@@ -7,9 +7,15 @@
             "cor": "#cbd1ff"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "some other stuff",
             "description": "some other blog post maybe",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "name": "some more other stuff",
+            "description": "some more other blog posts maybe",
             "cor": "#cbd1ff"
         }
     ]
