@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "some stuff",
+            "description": "blog post maybe",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 1,
+            "name": "some other stuff",
+            "description": "some other blog post maybe",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
