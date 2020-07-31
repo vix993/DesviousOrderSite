@@ -13,18 +13,18 @@ function RegisterCategory() {
   const [categories, setCategories] = useState([]);
   const [values, setValues] = useState(initialValues);
 
-  function fieldEdit(key, value){
+  function fieldEdit(key, value) {
     setValues({
       ...values,
       [key]: value,
-    }); 
+    });
   }
 
-  function handleChange(eventData){
+  function handleChange(eventData) {
     const { value } = eventData.target;
     fieldEdit(
-     eventData.target.getAttribute('name'),
-     value
+      eventData.target.getAttribute('name'),
+      value
     );
   }
 
@@ -59,45 +59,39 @@ function RegisterCategory() {
 
   return (
     <PageDefault>
-      <h1>Category: { values.name }</h1>
+      <h1>Category: {values.name}</h1>
 
       <form onSubmit={function handleSubmit(eventData) {
-          eventData.preventDefault();
-          setCategories([
-            ...categories,
-            values
-          ]);
+        eventData.preventDefault();
+        setCategories([
+          ...categories,
+          values
+        ]);
 
-          setValues(initialValues);
-        }}>
-      
-      <FormField
-       value={values.name}
-       onChange={handleChange}
-       type="text"
-       label="Category Name"
-       field="name"
-      />
-      <FormField
-       value={values.description}
-       onChange={handleChange}
-       type="textarea"
-       label="Category Name"
-       field="description"
-      />
-      <FormField
-       value={values.color}
-       onChange={handleChange}
-       type="color"
-       label="Category Name"
-       field="color"
-      />
-      <FormField
-       value={values.color}
-       onChange={handleChange}
-       type="href"
-       field="Link"
-      />
+        setValues(initialValues);
+      }}>
+
+        <FormField
+          value={values.name}
+          onChange={handleChange}
+          type="text"
+          label="Category Name"
+          field="name"
+        />
+        <FormField
+          value={values.description}
+          onChange={handleChange}
+          type="textarea"
+          label="Category Name"
+          field="description"
+        />
+        <FormField
+          value={values.color}
+          onChange={handleChange}
+          type="color"
+          label="Category Name"
+          field="color"
+        />
 
         {/* <div>
           <label>
