@@ -26,7 +26,7 @@
   padding-right: 5%;
 
   background: var(--black);
-  border-bottom: 2px solid var(--primarydesvious);
+  border-bottom: 2px solid var(--secondarydesvious);
 }
 body {
   --bodyPaddingTop: 94px;
@@ -44,8 +44,8 @@ body {
 }
 
 .ButtonLink {
-  color: var(--white);
-  border: 1px solid var(--white);
+  color: var(--secondarydesvious);
+  border: 1px solid var(--secondarydesvious);
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
