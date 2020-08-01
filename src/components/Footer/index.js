@@ -9,10 +9,10 @@ function Footer() {
         <img src={Logo} style={{width: "120px", height: "auto" }} alt="Logodesvious" />
       </a>
       <p>
-        Orgulhosamente criado durante a
+        Desvious Order
         {' '}
         <a href="https://desviousorder.bandcamp.com/">
-          Imersão React da Alura
+          Support our productions on our bandcamp
         </a>
       </p>
     </FooterBase>
