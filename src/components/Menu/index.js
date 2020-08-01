@@ -14,13 +14,13 @@ function Menu()
                 src={Logo}
                 alt='desviousorderlogo'></img>
             </Link>
-            <Button
+            {/* <Button
                 as={Link}
                 className="ButtonLink"
                 to="/register/content"
             >
             New Content
-            </Button>
+            </Button> */}
         </nav>
     );
 }
