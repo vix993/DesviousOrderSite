@@ -12,14 +12,14 @@ function Menu()
                 <img
                 className="Logo"
                 src={Logo}
-                alt='Aluraflixlogo'></img>
+                alt='desviousorderlogo'></img>
             </Link>
             <Button
                 as={Link}
                 className="ButtonLink"
-                to="/register/video"
+                to="/register/content"
             >
-            New Video
+            New Content
             </Button>
         </nav>
     );

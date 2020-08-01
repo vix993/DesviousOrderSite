@@ -12,7 +12,7 @@ const Page404 = () => (<div>Page404</div>)
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/register/video" component={RegisterVideo} />
+      <Route path="/register/content" component={RegisterVideo} />
       <Route path="/register/category" component={RegisterCategory} />
       <Route path="/" component={Home} exact />
       <Route component={Page404} /> {/* <Route component={() => (<div>Page 404</div>)} /> testing*/}

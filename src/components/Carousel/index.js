@@ -9,10 +9,12 @@ function Carousel({
   isSpotifyPlaybutton,
   category,
 }) {
-  const categoryTitle = category.titulo;
+  const isYoutubeLink = category.videos[0];
+  const categoryTitle = category.title;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
-  const elements = category.songs ? category.songs : category.videos;
+  const elements = isYoutubeLink ? category.videos : category.spotify;
+  console.log(elements);
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (

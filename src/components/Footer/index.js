@@ -1,16 +1,17 @@
 import React from 'react';
+import Logo from '../../assets/img/Logo.jpg';
 import { FooterBase } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://desviousorder.bandcamp.com/">
+        <img src={Logo} style={{width: "120px", height: "auto" }} alt="Logodesvious" />
       </a>
       <p>
         Orgulhosamente criado durante a
         {' '}
-        <a href="https://www.alura.com.br/">
+        <a href="https://desviousorder.bandcamp.com/">
           Imersão React da Alura
         </a>
       </p>

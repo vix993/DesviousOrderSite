@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function RegisterCategory() {
   const initialValues = {
@@ -10,23 +11,8 @@ function RegisterCategory() {
     description: '',
     color: '',
   }
+  const { handleChange, values, clearForm } = useForm(initialValues);
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(initialValues);
-
-  function fieldEdit(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(eventData) {
-    const { value } = eventData.target;
-    fieldEdit(
-      eventData.target.getAttribute('name'),
-      value
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -38,23 +24,6 @@ function RegisterCategory() {
         ...response,
       ]);
     });
-    // setTimeout(() => {
-    //   setCategories([
-    //     ...categories,
-    //     {
-    //       "id": 1,
-    //       "name": "some stuff",
-    //       "description": "blog post maybe",
-    //       "cor": "#cbd1ff"
-    //   },
-    //   {
-    //       "id": 1,
-    //       "name": "some other stuff",
-    //       "description": "some other blog post maybe",
-    //       "cor": "#cbd1ff"
-    //   },
-    //   ]);
-    // }, 1 * 1000);
   }, []);
 
   return (
@@ -68,7 +37,7 @@ function RegisterCategory() {
           values
         ]);
 
-        setValues(initialValues);
+        clearForm();
       }}>
 
         <FormField
@@ -127,10 +96,10 @@ function RegisterCategory() {
       <ul>
         {categories.map((category) => {
           return (
-            <li key={`${category.name}`}>
-              {category.name}
+            <li key={`${category.title}`}>
+              {category.title}
             </li>
-          )
+          );
         })}
       </ul>
       <Link to="/">

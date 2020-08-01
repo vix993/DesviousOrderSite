@@ -1,22 +1,97 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "some stuff",
-            "description": "blog post maybe",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "name": "some other stuff",
-            "description": "some other blog post maybe",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 3,
-            "name": "some more other stuff",
-            "description": "some more other blog posts maybe",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "title": "Spotify",
+      "cor": "#669CCC",
+      "link_extra": {
+        "text": "Influences",
+        "url": "https://desviousorder.bandcamp.com/"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Performances",
+      "cor": "#6a6ac0",
+      "link_extra": {
+        "text": "Media",
+        "url": "https://www.youtube.com/channel/UCuJJEQYApdlYAMWcO1zROUQ?view_as=subscriber"
+      }
+    }
+  ],
+  "spotify": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "PDLIF - Bon Iver",
+      "url": "https://open.spotify.com/track/6Md0VfGaWXZgJc53IMqPkO"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Living On The Sand - Colter Wall",
+      "url": "https://open.spotify.com/track/1WSEWiuB7KeEchBhvRb7qX"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Goodbye Carolina - The Marcus King Band",
+      "url": "https://open.spotify.com/track/3dWZJWo0kVHb5ID7x3PgtR"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "Island In The Sun - Weezer",
+      "url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw?si=yjATjbXISS-dCmq4fieJyw"
+    },
+    {
+      "id": 5,
+      "title": "Vida - Cabruera",
+      "url": "https://open.spotify.com/track/5mSzoU5KeYcOTO9Lp3wIK0?si=fabdwqW8T3S8rs5dhNqgCQ"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Lost - Frank Ocean",
+      "url": "https://open.spotify.com/track/4L7jMAP8UcIe309yQmkdcO"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "title": "UMI Says - Mos Def",
+      "url": "https://open.spotify.com/track/5Ru9OjtEw5htfnVKpYsIcv"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "title": "Lazarus - David Bowie",
+      "url": "https://open.spotify.com/track/3Vn9oCZbdI1EMO7jxdz2Rc"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "title": "Water Walking (Acoustic)",
+      "url": "https://www.youtube.com/watch?v=j7DEUondW1o"
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "title": "Slow Burn (Acoustic)",
+      "url": "https://www.youtube.com/watch?v=uqLBoKNzz_o"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "title": "Acoustic cover of Lost - Frank Ocean",
+      "url": "https://www.youtube.com/watch?v=Aa-CGUchAug"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "Acoustic cover of Living On The Sand - Colter Wall",
+      "url": "https://www.youtube.com/watch?v=saIEgbcSxEc"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Performances",
+      "title": "Performances",
       "link": "https://www.youtube.com/channel/UCuJJEQYApdlYAMWcO1zROUQ/",
       "cor": "#6a6ac0",
       "link_extra": {
@@ -10,25 +10,25 @@
       },
       "videos": [
         {
-          "titulo": "Water Walking (Acoustic)",
+          "title": "Water Walking (Acoustic)",
           "url": "https://www.youtube.com/watch?v=j7DEUondW1o"
         },
         {
-          "titulo": "Slow Burn (Acoustic)",
+          "title": "Slow Burn (Acoustic)",
           "url": "https://www.youtube.com/watch?v=uqLBoKNzz_o"
         },
         {
-          "titulo": "Acoustic cover of Lost - Frank Ocean",
+          "title": "Acoustic cover of Lost - Frank Ocean",
           "url": "https://www.youtube.com/watch?v=Aa-CGUchAug"
         },
         {
-          "titulo": "Acoustic cover of Living On The Sand - Colter Wall",
+          "title": "Acoustic cover of Living On The Sand - Colter Wall",
           "url": "https://www.youtube.com/watch?v=saIEgbcSxEc"
         }
       ]
     },
     {
-      "titulo": "Spotify",
+      "title": "Spotify",
       "link": "Band Link",
       "cor": "#6a6ac0",
       "link_extra": {
@@ -37,41 +37,41 @@
       },
       "songs": [
         {
-          "titulo": "PDLIF - Bon Iver",
+          "title": "PDLIF - Bon Iver",
           "url": "https://open.spotify.com/track/6Md0VfGaWXZgJc53IMqPkO"
         },
         {
-          "titulo": "Living On The Sand - Colter Wall",
+          "title": "Living On The Sand - Colter Wall",
           "url": "https://open.spotify.com/track/1WSEWiuB7KeEchBhvRb7qX"
         },
         {
-          "titulo": "Goodbye Carolina - The Marcus King Band",
+          "title": "Goodbye Carolina - The Marcus King Band",
           "url": "https://open.spotify.com/track/3dWZJWo0kVHb5ID7x3PgtR"
         },
         {
-          "titulo": "Island In The Sun - Weezer",
+          "title": "Island In The Sun - Weezer",
           "url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw?si=yjATjbXISS-dCmq4fieJyw"
         },
         {
-          "titulo": "Vida - Cabruera",
+          "title": "Vida - Cabruera",
           "url": "https://open.spotify.com/track/5mSzoU5KeYcOTO9Lp3wIK0?si=fabdwqW8T3S8rs5dhNqgCQ"
         },
         {
-          "titulo": "Lost - Frank Ocean",
+          "title": "Lost - Frank Ocean",
           "url": "https://open.spotify.com/track/4L7jMAP8UcIe309yQmkdcO"
         },
         {
-          "titulo": "UMI Says - Mos Def",
+          "title": "UMI Says - Mos Def",
           "url": "https://open.spotify.com/track/5Ru9OjtEw5htfnVKpYsIcv"
         },
         {
-          "titulo": "Lazarus - David Bowie",
+          "title": "Lazarus - David Bowie",
           "url": "https://open.spotify.com/track/3Vn9oCZbdI1EMO7jxdz2Rc"
         }
       ]
     },
     {
-      "titulo": "Desvious Games",
+      "title": "Desvious Games",
       "cor": "#00C86F",
       "link_extra": {
         "text": "Cursos de Back End na Alura",
@@ -79,29 +79,29 @@
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
           "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
           "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
           "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
         },
         {
-          "titulo": "API: Dicionário do Programador",
+          "title": "API: Dicionário do Programador",
           "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
         }, 
         {
-          "titulo": "Usando Git Direito",
+          "title": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "title": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
       "link_extra": {
         "text": "Cursos de Data Science na Alura",
@@ -109,47 +109,47 @@
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
+          "title": "Teste de Turing",
           "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
         },
         {
-          "titulo": "O que é Data Science?",
+          "title": "O que é Data Science?",
           "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
+          "title": "Melhor forma de aprender Python",
           "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
+          "title": "Como ingressar no mercado de Data Science?",
           "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "title": "Filmes",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
+          "title": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
+          "title": "Gattaca",
           "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
         },
         {
-          "titulo": "A Chegada",
+          "title": "A Chegada",
           "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
         },
         {
-          "titulo": "Feitiço do Tempo",
+          "title": "Feitiço do Tempo",
           "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "title": "Games",
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
@@ -157,29 +157,29 @@
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
+          "title": "Final Fantasy 7",
           "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
+          "title": "Assassins Creed Valhalla",
           "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
         },
         {
-          "titulo": "God of War 4",
+          "title": "God of War 4",
           "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
         },
         {
-          "titulo": "Resident Evil 8",
+          "title": "Resident Evil 8",
           "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "title": "Pokémon Let's Go Pikachu/Eevee",
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "title": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
@@ -187,23 +187,23 @@
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
+          "title": "Como estudar melhor?",
           "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
         },
         {
-          "titulo": "Faculdade",
+          "title": "Faculdade",
           "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
         },
         {
-          "titulo": "Frameworks",
+          "title": "Frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
         },
         {
-          "titulo": "A mágica do Aprendizado",
+          "title": "A mágica do Aprendizado",
           "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
         },
         {
-          "titulo": "Como aprender a programar?",
+          "title": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
