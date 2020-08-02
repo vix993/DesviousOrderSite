@@ -46,6 +46,7 @@
     },
     {
       "id": 5,
+      "categoryId": 1,
       "title": "Vida - Cabruera",
       "url": "https://open.spotify.com/track/5mSzoU5KeYcOTO9Lp3wIK0?si=fabdwqW8T3S8rs5dhNqgCQ"
     },
@@ -66,6 +67,12 @@
       "categoryId": 1,
       "title": "Lazarus - David Bowie",
       "url": "https://open.spotify.com/track/3Vn9oCZbdI1EMO7jxdz2Rc"
+    },
+    {
+      "categoryId": 1,
+      "title": "Hurt - Johnny Cash",
+      "url": "https://open.spotify.com/track/28cnXtME493VX9NOw9cIUh",
+      "id": 9
     }
   ],
   "videos": [

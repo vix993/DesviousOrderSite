@@ -12,6 +12,17 @@ function getAllWithContent() {
     });
 }
 
+function getAll() {
+    return fetch(`${CATEGORIES_URL}`).then(async (serverResponse) => {
+        if (serverResponse.ok) {
+            const response = await serverResponse.json();
+            return response;
+        }
+        throw new Error('Error: Unable to grab data.')
+    });
+}
+
 export default {
     getAllWithContent,
+    getAll,
 }

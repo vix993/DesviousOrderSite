@@ -14,7 +14,7 @@ function useForm(initialValues) {
       const { value } = eventData.target;
       fieldEdit(
         eventData.target.getAttribute('name'),
-        value
+        value,
       );
     }
   

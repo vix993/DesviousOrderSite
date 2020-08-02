@@ -1,9 +1,9 @@
 import config from '../config';
 
-const CONTENT_URL = `${config.URL_BACKEND_TOP}/categories`;
+const CONTENT_URL = `${config.URL_BACKEND_TOP}/videos`;
 
 function create(contentObject) {
-    return fetch(`${CONTENT_URL}?_embed=videos`, {
+    return fetch(`${CONTENT_URL}`, {
         method: 'POST',
         headers: {
             'Content-type': 'application/json',
