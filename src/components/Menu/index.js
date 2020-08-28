@@ -4,6 +4,14 @@ import Logo from '../../assets/img/Logo.jpg';
 import './Menu.css';
 import Button from '../Button'
 
+// {/* <Button
+//     as={Link}
+//     className="ButtonLink"
+//     to="/register/content"
+// >
+// New Content
+// </Button> */}
+
 function Menu() 
 {
     return (
@@ -14,13 +22,6 @@ function Menu()
                 src={Logo}
                 alt='desviousorderlogo'></img>
             </Link>
-            <Button
-                as={Link}
-                className="ButtonLink"
-                to="/register/content"
-            >
-            New Content
-            </Button>
         </nav>
     );
 }
