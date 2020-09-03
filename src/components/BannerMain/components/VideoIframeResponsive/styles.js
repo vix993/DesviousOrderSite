@@ -3,8 +3,14 @@ import styled from 'styled-components';
 export const VideoContainer = styled.div`
   position: relative;
   overflow: hidden;
+  opacity: 0.3;
   width: 100%;
   padding-top: 56.25%;
+  transition: opacity 0.5s;
+  &:hover {
+    transition: opacity 0.5s;
+    opacity: 1;
+  }
   @media (max-width: 800px) {
     display: none;
   }
