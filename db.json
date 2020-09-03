@@ -2,10 +2,10 @@
   "categories": [
     {
       "id": 1,
-      "title": "Spotify",
+      "title": "Influences",
       "cor": "#669CCC",
       "link_extra": {
-        "text": "Influences",
+        "text": "Contribute to our Bandcamp",
         "url": "https://desviousorder.bandcamp.com/"
       }
     },
