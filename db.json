@@ -85,17 +85,23 @@
     {
       "id": 2,
       "categoryId": 2,
+      "title": "Privateering (Acoustic)",
+      "url": "https://youtu.be/SChGaZJZFK0"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
       "title": "Slow Burn (Acoustic)",
       "url": "https://www.youtube.com/watch?v=uqLBoKNzz_o"
     },
     {
-      "id": 3,
+      "id": 4,
       "categoryId": 2,
       "title": "Acoustic cover of Lost - Frank Ocean",
       "url": "https://www.youtube.com/watch?v=Aa-CGUchAug"
     },
     {
-      "id": 4,
+      "id": 5,
       "categoryId": 2,
       "title": "Acoustic cover of Living On The Sand - Colter Wall",
       "url": "https://www.youtube.com/watch?v=saIEgbcSxEc"
