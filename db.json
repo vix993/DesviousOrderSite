@@ -85,23 +85,29 @@
     {
       "id": 2,
       "categoryId": 2,
+      "title": "I Don`t Need No Doctor - Ray Charles (Cover with Nosabo)",
+      "url": "https://www.youtube.com/watch?v=dl3pbW-YyQY"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
       "title": "Privateering (Acoustic)",
       "url": "https://youtu.be/SChGaZJZFK0"
     },
     {
-      "id": 3,
+      "id": 4,
       "categoryId": 2,
       "title": "Slow Burn (Acoustic)",
       "url": "https://www.youtube.com/watch?v=uqLBoKNzz_o"
     },
     {
-      "id": 4,
+      "id": 5,
       "categoryId": 2,
       "title": "Acoustic cover of Lost - Frank Ocean",
       "url": "https://www.youtube.com/watch?v=Aa-CGUchAug"
     },
     {
-      "id": 5,
+      "id": 6,
       "categoryId": 2,
       "title": "Acoustic cover of Living On The Sand - Colter Wall",
       "url": "https://www.youtube.com/watch?v=saIEgbcSxEc"
