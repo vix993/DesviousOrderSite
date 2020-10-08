@@ -13,9 +13,8 @@ function Footer() {
         {' '}
         <a href="https://desviousorder.bandcamp.com/">
           Support our productions on our bandcamp
-          <br>
-          </br>
-          Victor Nascimento
+          <br />
+          Victor Nascimento contact us on desviousorder@gmail.com
         </a>
       </p>
     </FooterBase>
